@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки (PWA)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Заметки</h1>
+  <p id="status">Онлайн</p>
+
+  <textarea id="noteInput" placeholder="Введите заметку..."></textarea><br>
+  <button onclick="addNote()">Добавить</button>
+  <button onclick="deleteSelectedNote()">Удалить выбранную</button>
+
+  <h2>Список заметок:</h2>
+  <ul id="notesList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
